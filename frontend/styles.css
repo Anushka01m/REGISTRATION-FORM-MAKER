@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* coffee-stain style background */
+  background: radial-gradient(circle at 20% 20%, #f5e6c8 0, #e6cf9f 25%, #d0a96b 55%, #b98a4a 80%, #8a5a28 100%);
+}
+
+/* main card */
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #fefefe;
+  border-radius: 4px;
+  padding: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  border-top: 10px solid #c79b3b;
+}
+
+.header {
+  padding: 20px 30px 10px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+  margin: 0 0 10px 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.header p {
+  margin: 3px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.header .meta {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form {
+  padding: 20px 30px 30px 30px;
+}
+
+.form-group {
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.required {
+  color: #d93025;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  background: #fafafa;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  border-bottom: 2px solid #4285f4;
+  background: #fff;
+}
+
+.note {
+  font-size: 12px;
+  color: #666;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px 24px;
+  background: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #3367d6;
+}
